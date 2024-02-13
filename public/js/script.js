@@ -43,7 +43,7 @@ no_button.addEventListener('click', () => {
     } else if (i === total - 1) {
         alert(answers[i]);
         i = 0;
-        no_button.innerHTML = "No";
+        no_button.innerHTML = "Хар ядаргаа";
         yes_button.style.height = "50px";
         yes_button.style.width = "50px";
         size = 50;
